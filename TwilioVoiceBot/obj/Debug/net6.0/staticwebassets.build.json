@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5RKJYLneojV8VbLZ5xw7FWtY0y8xhVc8BSK/7OzZvE4=",
+  "Source": "TwilioVoiceBot",
+  "BasePath": "_content/TwilioVoiceBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
