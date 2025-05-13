@@ -1,4 +1,4 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -16,6 +16,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseRouting();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers(); // أو MapDefaultControllerRoute
+});
 
 app.UseHttpsRedirection();
 
